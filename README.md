@@ -1,5 +1,5 @@
 
-  # Professional ReadMe Generator
+  # Professional REadme Generator
 
   ## License: GPL https://img.shields.io/badge/License-GPL-green.svg
   ### ![License](https://choosealicense.com/licenses/gpl-3.0/)
@@ -18,16 +18,16 @@
 
 
   ## Installation: 
-  Install Node, Install Inquirer
+  1-Install Node 2-InstallPro Inquirer
 
   ## Usage: 
-  This application should be used when generating a new readme file for a github repository
+  This Application should be used when generating a new readme file for a github repository .
 
   ## Contributors: 
   Adam Smith
 
   ## Tests: 
-  NA
+  To test application: node index
 
   ## Contact Information: 
   ### UserName: 
