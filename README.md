@@ -18,16 +18,16 @@
 
 
   ## Installation: 
-  1-Install Node 2-Install Inquirer
+  1-Install Node 2-InstallPro Inquirer
 
   ## Usage: 
-  This Application should be used when generating a new readme file for a github repository.
+  This Application should be used when generating a new readme file for a github repository .
 
   ## Contributors: 
   Adam Smith
 
   ## Tests: 
-  node index 
+  To test application: node index
 
   ## Questions: 
   ### UserName: 
