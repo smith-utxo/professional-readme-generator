@@ -7,9 +7,11 @@ const indexJS = require('./index');
 function LicenseBadge(license) {
   let badge = ''; 
   if(license === 'MIT'){
-    badge = 'https://img.shields.io/badge/License-MIT-green.svg'
+    badge = '![Github license](https://img.shields.io/badge/License-MIT-green.svg)'
   } else if(license === 'GPL'){
-    badge = 'https://img.shields.io/badge/License-GPL-green.svg'
+    badge = '![License: GPL v3](https://img.shields.io/badge/License-GPL-green.svg)'
+  } else if (license === 'Apache') {
+    badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
    } else {
   badge = ''; 
   }
@@ -21,11 +23,11 @@ function LicenseLink(license) {
 let licenseLink = ''; 
 
 if(license === 'MIT'){
-  licenseLink = '![GitHub license](https://choosealicense.com/licenses/mit/)';
+  licenseLink = 'https://choosealicense.com/licenses/mit/';
 } else if(license === 'GPL'){
-  licenseLink = '![License](https://choosealicense.com/licenses/gpl-3.0/)';
+  licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
 } else if (license === 'Apache'){
-  licenseLink = '![License: GPL v3](https://choosealicense.com/licenses/apache-2.0/)';
+  licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
 } else {
   licenseLink = ''; 
 }
@@ -62,7 +64,7 @@ function generateMarkdown(data) {
   ### [Usage](#usage)
   ### [Contributors](#contributors)
   ### [Tests](#tests)
-  ### [Contact](#contact)
+  ### [Questions](#questions)
 
 
   ## Installation: 
@@ -77,7 +79,7 @@ function generateMarkdown(data) {
   ## Tests: 
   ${data.Commands}
 
-  ## Contact Information: 
+  ## Questions: 
   ### UserName: 
   ${data.UserName}
   ### Email: 

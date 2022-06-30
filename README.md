@@ -1,8 +1,8 @@
 
-  # Professional ReadMe Generator
+  # Professional Readme Generator
 
-  ## License: GPL https://img.shields.io/badge/License-GPL-green.svg
-  ### ![License](https://choosealicense.com/licenses/gpl-3.0/)
+  ## License: GPL ![License: GPL v3](https://img.shields.io/badge/License-GPL-green.svg)
+  ### https://choosealicense.com/licenses/gpl-3.0/
   
   ## Description: 
   A command-line application that dynamically creates a professional readme file utilizing node.js and inquirer package. 
@@ -14,22 +14,22 @@
   ### [Usage](#usage)
   ### [Contributors](#contributors)
   ### [Tests](#tests)
-  ### [Contact](#contact)
+  ### [Questions](#questions)
 
 
   ## Installation: 
-  Install Node, Install Inquirer
+  1-Install Node 2-Install Inquirer
 
   ## Usage: 
-  This application should be used when generating a new readme file for a github repository
+  This Application should be used when generating a new readme file for a github repository.
 
   ## Contributors: 
   Adam Smith
 
   ## Tests: 
-  NA
+  node index 
 
-  ## Contact Information: 
+  ## Questions: 
   ### UserName: 
   smith-utxo
   ### Email: 
